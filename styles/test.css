@@ -1,0 +1,162 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* display:flex ; */
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1370px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+.steps {
+    /* background-color: #f8f9fa; */
+    padding: 40px 20px;
+    
+}
+
+.steps h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    font-weight: 400;
+}
+
+.step-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.step {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    width: 45%;
+    margin: 10px 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 70px;
+}
+
+.step h3 {
+    margin-top: 0;
+}
+
+.step p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 15.4px;
+    color: rgba(121, 166, 195, 1);
+    width: 400px;
+}
+
+.step img{
+    height: 90px;
+    width: 90px;
+}
+
+.step a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.step a:hover {
+    text-decoration: underline;
+}
+
+.reviews {
+    background-color: rgba(240, 244, 248, 1);
+    padding: 40px 20px;
+    border-radius: 120px 6px;
+    /* display: flex; */
+}
+
+.reviews-h2 {
+    margin-left: 50px;
+    margin-bottom: 40px;    
+}
+
+.reviews-h2 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    line-height: 37.4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review {
+    /* background-color: #fff; */
+    border-radius: 8px;
+    padding: 20px;
+    width: 380px;
+    margin: 10px 0;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* text-align: center; */
+}
+
+.review img {
+    border-radius: 70px 6px;
+    width: 380px;
+    height: 220px;
+    object-fit: cover;
+
+}
+
+.review p{
+    color: rgba(121, 166, 195, 1);
+}
+
+.review h3 {
+    margin-top: 10px;
+}
+
+.div_mr_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mr-div{
+    width: 405px;
+    height: 48px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0;
+}
+
+.more-reviews {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 15.4px;
+    color:rgba(0, 0, 222, 1);
+    font-style: 14;
+
+}
+
+.more-reviews:hover {
+    text-decoration: underline;
+}
+
