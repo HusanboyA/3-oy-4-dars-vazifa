@@ -6,7 +6,6 @@ body {
 }
 
 .container {
-    /* display:flex ; */
     margin-right: auto;
     margin-left: auto;
     max-width: 1370px;
@@ -20,7 +19,6 @@ section {
 
 
 .steps {
-    /* background-color: #f8f9fa; */
     padding: 40px 20px;
     
 }
@@ -160,3 +158,45 @@ section {
     text-decoration: underline;
 }
 
+.borrowers{
+    padding: 10px 20px;
+}
+
+.borrowers h2{
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(110, 155, 184, 1);
+}
+
+nav ul li a:hover{
+    text-decoration: underline blue;
+    color: black;
+
+}
+
+.borrower-h2{
+    margin-bottom: 40px; 
+}
+
+.borrower-h2 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    line-height: 37.4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+}
